@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgba(85, 99, 171, 0.386);
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  background: rgb(85, 100, 171);
+  width: 70vw;
+  margin: 100px auto;
+  border-radius: 20px;
+  color: white;
+}
+input {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  color: white;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + label {
+  transform: scale(1.3);
+  background: darkblue;
+  color: white;
+}
+label {
+  background: white;
+  color: darkblue;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+#password-output {
+  font-size: 1.8rem;
+  text-align: center;
+}
+#generateButton {
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background: darkblue;
+}
