@@ -17,7 +17,7 @@ Ce projet est un générateur de mots de passe aléatoires et sécurisés
   - Chiffres (0-9)
   - Symboles spéciaux (!@#$%)
 - Interface utilisateur moderne avec boutons toggle pour activer/désactiver les options
-- Affichage du mot de passe généré dans un champ facilement copiable
+- Affichage du mot de passe généré dans un champ facilement copiable (copié au clic)
 
 ## 🛠️ Technologies utilisées
 
