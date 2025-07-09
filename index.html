@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Générateur de mot de passe</title>
+    <script
+      src="https://kit.fontawesome.com/17e72c725f.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <!-- <i class="fa-solid fa-question"></i> -->
     <main
       class="password-generator"
       role="main"
@@ -15,14 +20,9 @@
       <h1 class="pg_title">Générateur de mot de passe</h1>
 
       <section class="pg_output">
-        <label for="password-output" class="sr-only">Mot de passe généré</label>
-        <input
-          id="password-output"
-          type="text"
-          readonly
-          value="Cliquez sur générer"
-          aria-live="polite"
-        />
+        <span id="copy-message">Copié !</span>
+        <label for="password-output" class="sr-only"></label>
+        <input id="password-output" type="text" readonly aria-live="polite" />
       </section>
 
       <section class="pg_settings">
